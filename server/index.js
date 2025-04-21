@@ -1,9 +1,10 @@
+import express from 'express';
 
 import cors from 'cors';
 import db from './database.js';
 const express = await import('express');
 
-const app = express();
+
 
 // Configure CORS for both development and production
 const corsOptions = {
