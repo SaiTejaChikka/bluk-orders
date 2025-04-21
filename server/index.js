@@ -1,6 +1,7 @@
-import express from 'express';
+
 import cors from 'cors';
 import db from './database.js';
+const express = await import('express');
 
 const app = express();
 
